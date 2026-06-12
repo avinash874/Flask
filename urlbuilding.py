@@ -28,6 +28,5 @@ def results(marks):
         result='success'
     return redirect(url_for(result,score=marks))
   # url_for() function is used to build a URL to the specific function
-
 if __name__=="__main__":
     app.run(debug=True)
