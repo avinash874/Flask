@@ -15,7 +15,7 @@ def success(score):
     return "<html><body><h1>The Result is passed </h1></body></html>"
 
 @app.route('/fail/<int:score>')
-def fail(marks):
+def fail(score):
     return "The person has fail and the score is "+str(score)
 
 ### Result checker
